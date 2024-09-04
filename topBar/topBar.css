@@ -1,0 +1,51 @@
+.top-bar .icon {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.red-circle {
+  background-color: red;
+  padding: 5px;
+  width: 7.5px;
+  height: 7.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 10px;
+}
+
+.top-bar {
+  height: 65px;
+  background-color: #3bc47e;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+  justify-content: space-between;
+  color: #fff;
+}
+.top-bar .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.top-bar .left .dropdown {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.top-bar .icon {
+  width: 15px;
+}
+
+.dropdown-arrow {
+  width: 15px;
+  margin-top: 2px;
+}/*# sourceMappingURL=topBar.css.map */
