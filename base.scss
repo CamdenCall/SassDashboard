@@ -28,7 +28,7 @@ body {
     width: 15vw;
     height: 100%;
     min-width: 250px;
-    background-color: darkslategray;
+    background-color: whitesmoke;
 
     display: flex;
     flex-direction: column;
@@ -54,6 +54,74 @@ body {
             padding-right: 20px;
         }
     }
+
+    .nav-box {
+        width: 100%;
+        height: 160px;
+
+        .nav-heading {
+            width: 100%;
+            height: 40px;
+            // background-color: blue;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            h3 {
+                padding-left: 15px;
+                font-size: 13px;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: $blue;
+            }
+        }
+
+        .nav-subheadings {
+            width: 82%;
+            height: 32px;
+            margin-left: 25px;
+            // background-color: pink;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .material-symbols-outlined {
+                font-size: 20px;
+                color: rgb(208, 207, 207)
+            }
+
+            h3 {
+                width: 170px;
+                font-size: 12px;
+                font-weight: 600;
+                color: #2a2a2a;
+
+                // background-color: white;
+                text-align: left;
+            }
+
+
+        }
+    }
+}
+
+#menuId {
+    height: 200px;
+}
+
+#widgetsId {
+    height: 190px;
+
+}
+
+#chartsId {
+    height: 250px;
+}
+
+#formsId {
+    height: 125px;
 }
 
 .right-container {
