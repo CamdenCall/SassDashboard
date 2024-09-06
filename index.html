@@ -3,54 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard - CT</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link type="text/css" href="base.css" rel="stylesheet"/>
     <link href="base.css" rel="stylesheet" />
     <link href="topBar/topBar.css" rel="stylesheet">
 </head>
 <body>
-    <div class="top-bar">
-       <div class="left">
-            <img src="Images/search.svg" class="icon">
-            <div class="dropdown">
-                Mega Menu
-                <img src="Images/dropdown.svg" class="dropdown-arrow">
+    <div class="dashboard-container">
+        <div class="side-bar">
+            <div class="logo-container">
+                <h2>Architect</h2>
+                <span id="nav-button" class="material-symbols-outlined">
+                    menu
+                </span>
             </div>
-            <div class="dropdown">
-                <div class="red-circle">
-                    5
-                </div>
-                Settings
-                <img src="Images/dropdown.svg" class="dropdown-arrow">
-            </div>
-            <div class="dropdown">
-                Projects
-                <img src="Images/dropdown.svg" class="dropdown-arrow">
-            </div>
-       </div>
-       <div class="right">
-            <div class="icons">
-                <img src="Images/grid.svg" class="icon">
-                <img src="Images/bell.svg" class="icon">
-                <img src="Images/flag.svg" class="icon">
-                <img src="Images/mountain.svg" class="icon">
-            </div>
+        </div>
 
-            <div class="divider"></div>
-            <div class="user">
-                <img src="Images/flag.svg">
-                <img src="Images/dropdown.svg" class="dropdown-arrow">
-                <div class="role">
-                    <span>Alina Mclourd</span>
-                    <span>Vp People Manager</span>
+
+
+       <div class="right-container">
+            <div class="top-bar">
+                <div class="left">
+                    <img src="Images/search.svg" class="icon">
+                    <div class="dropdown">
+                        Mega Menu
+                        <img src="Images/dropdown.svg" class="dropdown-arrow">
+                    </div>
+                    <div class="dropdown">
+                        <div class="red-circle">
+                            5
+                        </div>
+                        Settings
+                        <img src="Images/dropdown.svg" class="dropdown-arrow">
+                    </div>
+                    <div class="dropdown">
+                        Projects
+                        <img src="Images/dropdown.svg" class="dropdown-arrow">
+                    </div>
                 </div>
+            
+                <div class="icons">
+                    <img src="Images/grid.svg" class="icon">
+                    <img src="Images/bell.svg" class="icon">
+                    <img src="Images/flag.svg" class="icon">
+                    <img src="Images/mountain.svg" class="icon">
+                </div>
+
+                <div class="divider"></div>
+                <div class="user">
+                    <img src="Images/flag.svg" width="20">
+                    <img src="Images/dropdown.svg" class="dropdown-arrow">
+                    <div class="role">
+                        <span>Alina Mclourd</span>
+                        <span>Vp People Manager</span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <img src="Images/menu.svg" width="20">
             </div>
-            <div class="divider"></div>
-            <img src="Images/menu.svg" width="20">
        </div>
 
     </div>
-    <div class="side-bar">
 
     </div>
+    <script src="JS/script.js"></script>
 </body>
 </html>
