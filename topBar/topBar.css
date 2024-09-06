@@ -1,0 +1,89 @@
+.top-bar .icon {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.red-circle {
+  background-color: red;
+  padding: 5px;
+  width: 7.5px;
+  height: 7.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 10px;
+}
+
+.top-bar {
+  height: 65px;
+  background-color: #3bc47e;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+  justify-content: space-between;
+  color: #fff;
+}
+.top-bar .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.top-bar .left .dropdown {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.top-bar .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.top-bar .right .icons {
+  display: flex;
+  gap: 10px;
+}
+.top-bar .right .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.top-bar .right .user img {
+  height: 40px;
+}
+.top-bar .right .user .role {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.top-bar .right .user .role span:nth-child(1) {
+  font-weight: 500;
+}
+.top-bar .right .user .role span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.65);
+}
+.top-bar .icon {
+  width: 17.5px;
+}
+.top-bar .icon:hover {
+  box-shadow: none;
+}
+
+.dropdown-arrow {
+  width: 15px;
+  margin-top: 2px;
+}
+
+.divider {
+  height: 30px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.35);
+}/*# sourceMappingURL=topBar.css.map */
