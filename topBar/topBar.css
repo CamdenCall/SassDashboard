@@ -41,11 +41,49 @@
   font-size: 14px;
   cursor: pointer;
 }
+.top-bar .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.top-bar .right .icons {
+  display: flex;
+  gap: 10px;
+}
+.top-bar .right .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.top-bar .right .user img {
+  height: 40px;
+}
+.top-bar .right .user .role {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.top-bar .right .user .role span:nth-child(1) {
+  font-weight: 500;
+}
+.top-bar .right .user .role span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.65);
+}
 .top-bar .icon {
-  width: 15px;
+  width: 17.5px;
+}
+.top-bar .icon:hover {
+  box-shadow: none;
 }
 
 .dropdown-arrow {
   width: 15px;
   margin-top: 2px;
+}
+
+.divider {
+  height: 30px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.35);
 }/*# sourceMappingURL=topBar.css.map */
