@@ -1,0 +1,126 @@
+.dashboard .main .modules .module {
+  background-color: #fff;
+  padding: 20px 25px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.green {
+  color: #3bc47e;
+}
+
+.dashboard {
+  flex: 1;
+}
+.dashboard .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 30px;
+}
+.dashboard .heading .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dashboard .heading .info img {
+  width: 35px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  flex: 1;
+}
+.dashboard .heading .blue-button {
+  background-color: #17a9ff;
+  color: #fff;
+  padding: 7.5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+  font-size: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.dashboard .main {
+  background-color: #eaebee;
+  padding: 15px 0px;
+}
+.dashboard .main .modules {
+  padding: 10px 30px;
+  background-color: #eaebee;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.dashboard .main .modules .module h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.dashboard .main .modules .income-report {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+.dashboard .main .modules .income-report .module-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard .main .modules .income-report .module-top .options {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.dashboard .main .modules .income-report span {
+  color: #3bc47e;
+  font-size: 38px;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+}
+.dashboard .main .modules .high {
+  flex-grow: 1;
+}
+.dashboard .main .modules .high .highlights {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.dashboard .main .modules .high .highlights .user-highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 15px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+.dashboard .main .modules .high .highlights .user-highlight div {
+  display: flex;
+  align-items: center;
+  color: #000;
+  gap: 15px;
+}
+.dashboard .main .modules .high .highlights .user-highlight div p {
+  gap: 10px;
+  font-size: 14px;
+}
+.dashboard .main .modules .high .highlights .user-highlight span {
+  font-weight: 600;
+  font-size: 20px;
+}/*# sourceMappingURL=dashboard.css.map */
