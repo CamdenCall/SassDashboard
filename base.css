@@ -44,7 +44,7 @@ p {
 }
 .side-bar .logo-container {
   width: 100%;
-  height: 9vh;
+  height: 65px;
   background-color: #34cf7f;
   display: flex;
   flex-direction: row;
@@ -53,11 +53,11 @@ p {
 }
 .side-bar .logo-container h2 {
   font-size: 35px;
-  padding-left: 20px;
+  padding-left: 35px;
   font-family: Satisfy, sans-serif;
 }
 .side-bar .logo-container .material-symbols-outlined {
-  font-size: 45px;
+  font-size: 30px;
   padding-right: 20px;
 }
 
@@ -71,6 +71,6 @@ p {
 
 .top-bar {
   width: auto;
-  height: 9vh;
+  height: 65px;
   background-color: #3bc47e;
 }/*# sourceMappingURL=base.css.map */
