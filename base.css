@@ -39,6 +39,7 @@ p {
   height: 100%;
   min-width: 250px;
   background-color: whitesmoke;
+  border-right: 1px solid #d3d3d3;
   display: flex;
   flex-direction: column;
 }
@@ -96,6 +97,16 @@ p {
   font-weight: 600;
   color: #2a2a2a;
   text-align: left;
+}
+.side-bar .nav-box .nav-subheadings h3:hover {
+  color: #acacac;
+  cursor: pointer;
+}
+.side-bar .nav-box .nav-dropdown:hover {
+  color: #17a9ff;
+}
+.side-bar .nav-box .nav-dropdown-clear {
+  color: rgb(255, 0, 0);
 }
 
 #menuId {
