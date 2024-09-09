@@ -1,0 +1,129 @@
+@import '../vars';
+%module {
+    background-color: $white;
+    padding: 20px 25px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.25);
+}
+.green {
+    color: $green;
+}
+.dashboard {
+    flex: 1;
+    .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 30px;
+        .info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img {
+                width: 35px;
+                padding: 15px;
+                background-color: $white;
+                box-shadow: $box-shadow;
+                border-radius: 5px;
+                flex: 1;
+            }
+        }
+        .blue-button {
+            background-color: $light-blue;
+            color: $white;
+            padding: 7.5px 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 7.5px;
+            font-size: 12px;
+            box-shadow: $box-shadow;
+            cursor: pointer;
+        }
+    }
+    .main {
+        background-color: $off-white;
+        padding: 15px 0px;
+        .modules {
+            padding:10px 30px;
+            background-color: $off-white;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            .module  {
+                @extend %module;
+                h3 {
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                }
+            }
+            .income-report {
+                flex-grow: 1;
+                display: flex;
+                flex-direction:column;
+                gap: 25px;
+                position: relative;
+                .module-top {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .options {
+                        display: flex;
+                        align-items: center;
+                        border: 1px solid $black;
+                        padding: 0px 10px;
+                        border-radius: 5px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        flex-grow: 0;
+                        cursor: pointer;
+                    }
+                }
+                span {
+                    color: $green;
+                    font-size: 38px;
+                    font-weight: 700;
+                    position: absolute;
+                    top: 50px;
+                    left: 25px;
+                }
+            }
+            .high {
+                flex-grow: 1;
+                .highlights {
+                    display: flex;
+                    margin-top: 15px;
+                    flex-direction: column;
+                    border-bottom: 1px solid rgba(0,0,0,0.25);
+                    .user-highlight {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex: 1;
+                        padding: 15px 0px;
+                        border-top: 1px solid rgba(0,0,0,0.25);
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            color: $black;
+                            gap: 15px;
+                            p {
+                                gap: 10px;
+                                font-size: 14px;
+                            }
+                        }
+                        span {
+                            font-weight: 600;
+                            font-size: 20px;
+                        }
+                    }   
+                }
+            }
+        }
+    }
+}
