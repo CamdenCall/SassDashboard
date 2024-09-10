@@ -20,12 +20,12 @@
 }
 
 .top-bar {
-  height: 65px;
   background-color: #3bc47e;
   display: flex;
   align-items: center;
   padding: 0px 25px;
   justify-content: space-between;
+  box-sizing: border-box;
   color: #fff;
 }
 .top-bar .left {
@@ -87,4 +87,26 @@
   height: 30px;
   width: 1px;
   background-color: rgba(255, 255, 255, 0.35);
+}
+
+@media screen and (max-width: 1225px) {
+  .left .dropdown {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 935px) {
+  .right .icons {
+    display: none !important;
+  }
+  .top-bar {
+    padding: 10px 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .right .user {
+    display: none !important;
+  }
+  .divider {
+    display: none;
+  }
 }/*# sourceMappingURL=topBar.css.map */

@@ -15,6 +15,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px;
         align-items: center;
         padding: 35px 30px;
         .info {
@@ -124,6 +126,24 @@
                     }   
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .modules {
+        flex-direction: column;
+    }
+    .income-report {
+        .module-top {
+           flex-direction: column !important; 
+        }
+        
+        img {
+            display: none;
+        }
+        span {
+            position: static !important;
         }
     }
 }

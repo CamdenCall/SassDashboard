@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
   align-items: center;
   padding: 35px 30px;
 }
@@ -123,4 +125,19 @@
 .dashboard .main .modules .high .highlights .user-highlight span {
   font-weight: 600;
   font-size: 20px;
+}
+
+@media screen and (max-width: 935px) {
+  .modules {
+    flex-direction: column;
+  }
+  .income-report .module-top {
+    flex-direction: column !important;
+  }
+  .income-report img {
+    display: none;
+  }
+  .income-report span {
+    position: static !important;
+  }
 }/*# sourceMappingURL=dashboard.css.map */

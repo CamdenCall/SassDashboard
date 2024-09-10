@@ -45,8 +45,10 @@ p {
 }
 .side-bar .logo-container {
   width: 100%;
-  height: 83px;
+  min-height: 65px;
+  padding: 6px 0px;
   background-color: #34cf7f;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -137,4 +139,13 @@ p {
   width: auto;
   height: 65px;
   background-color: #3bc47e;
+}
+
+@media screen and (max-width: 600px) {
+  .side-bar {
+    display: none;
+  }
+  .side-bar .logo-container {
+    display: flex !important;
+  }
 }/*# sourceMappingURL=base.css.map */
